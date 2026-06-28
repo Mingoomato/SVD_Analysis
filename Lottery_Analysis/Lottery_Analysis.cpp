@@ -70,7 +70,7 @@ int SVD(int rows, int cols, const vector<vector<int>>& matrix) {
     
 	determinant *= sign; // Adjust determinant sign based on row swaps
 
-    return determinant;
+    return determinant; // This is just a determinant with unidentified value lammda's n-th(cols_th) order equation. Must add function to solve this equation.
 }
 
 int main() {
